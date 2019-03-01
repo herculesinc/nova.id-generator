@@ -10,11 +10,11 @@ const config = {
     window      : 100,
     redis: {
         prefix  : 'testgenerator',
-        host    : 'credo-dev.redis.cache.windows.net',
+        host    : '',
         port    : 6380,
-        password: 'r+K9d+jvY7HM8zK8q1G2sFryAhaBBYydYFIT5s4Br8E=',
+        password: '',
         tls: {
-            servername: "credo-dev.redis.cache.windows.net"
+            servername: ""
         }
     }
 };
