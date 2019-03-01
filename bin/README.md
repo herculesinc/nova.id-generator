@@ -1,5 +1,5 @@
-# Nova Redis Cache
-ID Generator module for Nova framework.
+# Nova ID Generator
+Redis-based ID Generator module for Nova framework.
 
 ## Install
 
