@@ -29,7 +29,7 @@ declare module "@nova/id-generator" {
     // ID GENERATOR
     // --------------------------------------------------------------------------------------------
     export interface IdGeneratorConfig {
-        name            : string;
+        name?           : string;
         batch?          : number;                   // number of IDs to generate in a single batch
         window?         : number;                   // time (ms) after which to discard an ID batch
         redis           : RedisConnectionConfig;

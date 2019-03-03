@@ -36,7 +36,7 @@ class IdGenerator extends events.EventEmitter {
             throw TypeError('Cannot create ID Generator: redis settings are undefined');
         this.source = { name: config.name || 'id-generator', type: 'redis' };
         this.client = redis.createClient(config.redis);
-        this.sequenceKey = `credo::id-generator::${config.name}`;
+        this.sequenceKey = `nova::id-generator::${config.name}`;
         this.idBatchSize = config.batch || DEFAULT_BATCH_SIZE;
         this.cacheWindow = config.window || DEFAULT_CACHE_WINDOW;
         this.checkpoint = 0;

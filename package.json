@@ -1,6 +1,6 @@
 {
   "name": "@nova/id-generator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ID generator module for Nova framework",
   "keywords": [
     "nova",
